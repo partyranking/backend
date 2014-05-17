@@ -1,0 +1,28 @@
+{
+    "name": "party-ranking",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node index.js",
+        "test": "NODE_ENV=test mocha test/* -R spec"
+    },
+    "engines": {
+        "node": "0.10.21"
+    },
+    "dependencies": {
+        "body-parser": "1.0.x",
+        "method-override": "^1.0.0",
+        "mongoose": "3.x.x",
+        "mongoose-json-select": "0.2.x",
+        "forky": "0.0.x",
+        "nconf": "0.6.x",
+        "express": "^4.1.1",
+        "slug": "0.4.x"
+    },
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "should": "3.2.x",
+        "supertest": "0.9.x"
+    }
+}
+s
